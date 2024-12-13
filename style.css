@@ -1,1 +1,32 @@
+body{
+  font-Family: monospace;
+}
+ul{
+  font-Family: helvetica;
+}
+li{
+  list-style: circle;
+}
+.list {
+  list-style: square; 
+}
 
+.light-theme {
+  --bg: var(-- white);
+  --fontColor: var(-- black);
+}
+.dark-theme {
+  --bg: var(-- black);
+  --fontColor: var(-- white);
+}
+: root {
+  --white: #ffffff;
+  --bleck: #000000;
+}
+*{
+  color: var(-- fontColor);
+  font-family: helvetica;
+}
+body{
+  background: var(-- bg);
+}
